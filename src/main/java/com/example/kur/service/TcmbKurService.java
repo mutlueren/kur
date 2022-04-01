@@ -91,7 +91,7 @@ public class TcmbKurService {
             kur.setParaKodu(paraKodu);
             kur.setAlisFiyati(new BigDecimal(element.getElementsByTagName("ForexBuying").item(0).getTextContent()));
             kur.setSatisFiyati(new BigDecimal(element.getElementsByTagName("ForexSelling").item(0).getTextContent()));
-            kur.setCevrildigiParaKodu("TL");
+            kur.setCevrildigiParaKodu("TRY");
         }
 
         ObjectMapper mapper = new ObjectMapper();
