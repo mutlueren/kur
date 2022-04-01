@@ -15,7 +15,7 @@ class KurApplicationTests {
     @Test
     void dogruKurTesti() throws Exception {
         final String kur = "USD";
-        assertEquals("{\"birim\":1,\"tarih\":\"04/01/2022\",\"paraKodu\":\"USD\",\"satisFiyati\":14.6873,\"alisFiyati\":14.6609,\"cevrildigiParaKodu\":\"TL\"}",tcmbKurService.paraKodunaGoreKurBilgisi(kur));
+        assertEquals("{\"birim\":1,\"tarih\":\"04/01/2022\",\"paraKodu\":\"USD\",\"satisFiyati\":14.6873,\"alisFiyati\":14.6609,\"cevrildigiParaKodu\":\"TRY\"}",tcmbKurService.paraKodunaGoreKurBilgisi(kur));
     }
 
     @Test
